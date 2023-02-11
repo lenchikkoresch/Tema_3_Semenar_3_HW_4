@@ -38,6 +38,7 @@ int number = GetNumber("Введите число: ");
 int rezult = MultipleNumers(number);
 Console.WriteLine(rezult);
 */
+/* В решении поменяла тип на long так как это больше число*/
 
 long GetNumber(string message)
 {
