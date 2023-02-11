@@ -4,8 +4,8 @@
 4 -> 24
 5 -> 120
 */
-/*
-int GetNumber(string message)
+
+/*int GetNumber(string message)
 {
 int result = 0;
 
@@ -38,6 +38,7 @@ int number = GetNumber("Введите число: ");
 int rezult = MultipleNumers(number);
 Console.WriteLine(rezult);
 */
+
 /* В решении поменяла тип на long так как это больше число*/
 
 long GetNumber(string message)
@@ -71,3 +72,6 @@ long MultipleNumbers (long number)
 long number = GetNumber("Введите положительное число");
 long result1 = MultipleNumbers(number);
 Console.WriteLine(result1);
+
+
+
