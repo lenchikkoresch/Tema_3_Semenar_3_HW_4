@@ -11,7 +11,7 @@ int GetNumber(string messge)
     while (true)
     {
         Console.WriteLine(messge);
-        if(int. TryParse(Console.ReadLine(), out result))
+        if (int.TryParse(Console.ReadLine(), out result))
         {
             break;
         }
@@ -24,13 +24,13 @@ int GetNumber(string messge)
 }
 
 
-double GetDegree (int A, int B)
+double GetDegree(int A, int B)
 {
-    double C = Math.Pow(A,Math.Abs(B));
-return C;
+    double C = Math.Pow(A, Math.Abs(B));
+    return C;
 }
-int A = GetNumber ("Введите число А");
-int B = GetNumber ("Введите число B");
-double C = GetDegree (A, B);
+int A = GetNumber("Введите число А");
+int B = GetNumber("Введите число B");
+double C = GetDegree(A, B);
 Console.WriteLine($"Число {A} в натуральной степени {B} равно {C}");
 
